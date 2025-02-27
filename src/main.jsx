@@ -1,10 +1,10 @@
 import React from 'react'
-import { createRoot } from 'react-dom/client'
+import ReactDOM from 'react-dom/client'
 import './index.css'
-import App from './App.jsx'
 
-createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <div style={{ padding: '20px', color: 'white' }}>
+    <h2>This is a direct test</h2>
+    <p>If you can see this text, React is working!</p>
+  </div>
 )
