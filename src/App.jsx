@@ -2,7 +2,7 @@
 import React from "react"
 import './App.css'
 
-export default function AssemblyEndgame() {
+export default function App() {
   return (
       <main>
           <header>
